@@ -1,0 +1,99 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: rgba(14, 13, 13, 0.993);
+}
+
+.key {
+        display: inline-block;
+	    transition: all ease-in-out .042s;
+	    position: absolute;
+	    background: #eaeaea;
+    font-size: 1.5em;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    border-radius: 4px;
+    border: 3px solid #aaa;
+    color: #444;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.65);
+    z-index: 2;
+
+}
+
+.playing{
+    transform:scale(1.12);
+}
+
+.key.polegar{
+    
+    position: fixed;
+    top: 300px; /*é tipo o eixo y*/
+    left: 750px;/*é tipo o eixo x*/
+
+}
+
+.key.dedo-frente{
+    
+    position: fixed;
+    top: 250px;
+    left: 700px;
+    
+}
+
+.key.tapa{
+    
+    position: fixed;
+    top: 300px;
+    left: 600px;
+    
+}
+
+.key.pulso{
+    
+    position: fixed;
+    top: 370px;
+    left: 700px;
+    
+}
+
+#pandeiro{
+    position: fixed;
+    
+    top: 200px;
+    left: 500px;
+}
+
+.título{
+    font-family: 'Pacifico', cursive;
+    position: fixed;
+    top:50px;
+    left:520px;
+    color: rgba(14, 14, 131, 0.842);
+    text-shadow: 1px 1px 1px rgb(202, 199, 199);
+}
+
+.lista-tutorial{
+    list-style: none;
+    background-color: rgba(73, 72, 72, 0.438);
+    color: rgb(156, 131, 77);
+    
+    border: 2px solid rgb(121, 117, 117);
+    
+    border-style:outset;
+    position: fixed;
+    font-size: medium;
+    top: 100px;
+    left: 1120px;
+}
+
+.título-lista{
+    color: #aaa;
+    text-shadow: 1px 1px 1px rgba(219, 216, 216, 0.877);
+    position: fixed;
+
+    top: 60px;
+    left: 1120px;
+
+}

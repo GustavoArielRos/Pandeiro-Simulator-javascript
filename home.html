@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Pandeiro Simulator</title>
+    
+    
+    <link rel="stylesheet" href="./pandeiro.css">
+    
+    
+</head>
+<body >
+
+    
+    <h1 class="título">Pandeiro Simulator</h1>
+    
+    <div id="pandeiro">
+        <img src="imagem/pandeiro-net.png" style="width:300px">
+    </div>
+    <!-- botão L-->
+    <div data-key="76" class="key polegar">
+        
+        <kbd>L</kbd>
+    </div>
+    
+    <!-- botão R-->
+    <div data-key="82" class="key dedo-frente">
+        <kbd>R</kbd>
+    </div>
+    
+    <!-- botão G-->
+    <div data-key="71" class="key pulso">
+        <kbd>G</kbd>
+    </div>
+    
+    
+    <!-- botão A-->
+    <div data-key="65" class="key tapa">
+        <kbd>A</kbd>
+    </div>
+
+    <!-- criando a lista "tutorial"-->
+    <h2 class="título-lista">Botões</h2>
+
+    <h2 class="lista-tutorial" >
+
+        <li> R - dedo da frente</li>
+        <li> L - polegar</li>
+        <li> G - punho</li>
+        <li> A - tapa</li>
+
+    </h2>
+    
+</body>
+
+<audio data-key="76" src="audio/polegar.mp3"></audio>
+<audio data-key="82" src="audio/dedo-frente.mp3"></audio>
+<audio data-key="71" src="audio/pulso.mp3"></audio>
+<audio data-key="65" src="audio/tapa.mp3"></audio>
+
+<script src="./pandeiro.js"></script>
+
+</html>
