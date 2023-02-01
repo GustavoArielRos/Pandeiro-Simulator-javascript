@@ -1,5 +1,10 @@
-   ![image](https://user-images.githubusercontent.com/101509337/216023034-131e19c0-ee06-4dd9-bee1-2f5ec3d17228.png)
+<h1>🎵Pandeiro Simulator🎵<h1>
+   
 
-
-Um simulador de pandeiro realizado na linguagem javascript. 
-O usuário pode realizar as batidas principais do instrumento(tapa,polegar,punho,dedo da frente) apertando as teclas do teclado.
+Um simulador de pandeiro realizado na linguagem javascript,junto com CSS e HTML.
+   
+## O usuário,apertando as teclas do teclado,pode realizar as batidas principais do instrumento: 
+* tapa(tecla A)
+* polegar(tecla L)
+* punho(tecla G)
+* dedo da frente(tecla R)
